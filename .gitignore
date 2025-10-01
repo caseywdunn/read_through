@@ -1,0 +1,7 @@
+*.gz
+*.fasta
+
+analysis_summary.txt
+drosophila_readthrough_analysis.csv
+
+.DS_Store
