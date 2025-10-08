@@ -6,7 +6,7 @@ Jupyter notebook with an analysis of codon read through in Drosophila.
 
 These files need to be downloaded and placed in this folder.
 
-We will use the 283 readthrough genes from  http://www.genome.org/cgi/doi/10.1101/gr.119974.110, available in their supplemental file `Data1_DmelReadthroughCandidates.txt`. It is based on genome and annotations from flybase.org (Tweedie et al. 2009) release FB2008-10. Those candidates from their sup infor have been added to this repo as `Data1_DmelReadthroughCandidates.txt`.
+Stop codon read through genes. Search for `gene with stop codon read through` for Sequence Ontology at https://flybase.org/vocabularies . Download IDs as `FlyBase_IDs.txt`
 
 Transcript sequences from https://s3ftp.flybase.org/genomes/Drosophila_melanogaster/dmel_r6.64_FB2025_03/fasta/dmel-all-transcript-r6.64.fasta.gz
 
@@ -58,6 +58,10 @@ Add the following to the data frame:
 - Nucleotide sequence of ORF2, starting immediately after stop codon
 
 
-# Step 3
+## Step 3
 
 Given the list `Data1_DmelReadthroughCandidates.txt` of which genes have externally validated read through , add a column to dataframe that indicates if gene has read through.
+
+## Other resources
+
+283 readthrough genes from  http://www.genome.org/cgi/doi/10.1101/gr.119974.110, available in their supplemental file `Data1_DmelReadthroughCandidates.txt`. It is based on genome and annotations from flybase.org (Tweedie et al. 2009) release FB2008-10. Those candidates from their sup info have been added to this repo as `Data1_DmelReadthroughCandidates.txt`.
