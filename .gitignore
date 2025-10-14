@@ -1,5 +1,6 @@
 *.gz
 *.fasta
+*.png
 
 analysis_summary.txt
 drosophila_readthrough_analysis.csv
